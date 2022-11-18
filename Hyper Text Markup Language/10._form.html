@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Form</title>
+    </head>
+    <body>
+        <!--input digunakan untuk memberi masukan berupa text,password,radio
+            ,checkbox,submit,reset,button-->
+        <form>
+            <label for="username">username:</label> <!--label digunakan untuk 
+                pelabelan input,dll-->
+            <input type="text" id="username">
+                <br>
+            <label for="password">password:</label>
+            <input type="password" id="password">
+                <br>
+            <!--type adalah tipe input,id adalah untuk identitas input pada label, name adalah 
+                untuk grouping antara masing-masing input-->
+            <input type="radio" id="pria" name="jeniskelamin"><label for="pria">pria</label>
+            <input type="radio" id="wanita"name="jeniskelamin"><label for="wanita">wanita</label>
+                <br>
+            <input type="checkbox" id="menyanyi"><label for="menyanyi">menyanyi</label>
+            <input type="checkbox" id="olahraga"><label for="olahraga">olahraga</label>
+            <input type="checkbox" id="ngoding"><label for="ngoding">ngoding</label>
+                <br>
+            <textarea></textarea>
+                <br>
+            <select>
+                <option>Bandung</option>
+                <option>Surabaya</option>
+                <option>Jakarta</option>
+            </select>
+            <!--value digunakan untuk mengganti teks atribut submit-->
+            <input type="submit" value="Kirim!">
+        </form>
+        
+    </body>
+</html>
